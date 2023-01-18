@@ -1,0 +1,94 @@
+div, section, header, footer, article, main, nav, img, span, h1, article {
+  outline: 1px solid #ccc;
+  padding: 1rem;
+  min-height: 1rem;
+  height: auto;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h5{
+  text-align: center;
+}
+
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  border: 2px solid blue;
+  margin: 0% 20%;
+  padding: 1%;
+}
+
+.menu {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar{
+  display: flex;
+
+}
+
+.nav-tab{
+flex: 1;
+}
+
+.highlight-boxes{
+  display: flex;
+
+}
+
+.highlight-story{
+  width: 33%;
+  height: 25vh;
+}
+
+.main-content{
+  display: flex;
+}
+
+
+.main-article-img{
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.main-article-subimg{
+  display: flex;
+}
+
+.main-article-subimg > img {
+  flex: 1;
+}
+
+.articles{
+  width: 60vw;
+}
+
+.side-articles{
+  width: 30vw;
+}
+
+.sidebar{
+  height: 21%;
+}
+
+.footer-box{
+height: auto;
+}
+
+.main-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer > div {
+  flex: 1;
+}
